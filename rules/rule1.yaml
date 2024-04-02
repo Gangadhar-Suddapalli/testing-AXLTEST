@@ -1,0 +1,11 @@
+---
+name: on_hello_event1
+pack: testing
+description: Sample rule firing on testing.event1.
+enabled: true
+trigger:
+    type: testing.event1
+action:
+    ref: core.echo
+    parameters:
+        message: "Changes detedted in data.txt file, Before: {{trigger.before}}, After: {{trigger.after}}"

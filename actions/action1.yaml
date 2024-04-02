@@ -1,0 +1,15 @@
+name: concatenate_strings
+pack: gangadhar
+description: Concatenate two strings
+enabled: true
+runner_type: python-script
+entry_point: action1.py
+parameters:
+  string1:
+    type: string
+    description: First string
+    required: true
+  string2:
+    type: string
+    description: Second string
+    required: true
