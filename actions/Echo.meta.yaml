@@ -1,0 +1,6 @@
+pack: testing
+enabled: true
+runner_type: orquesta
+name: Echo
+entry_point: workflows/Echo.yaml
+description: Testing for git push action
