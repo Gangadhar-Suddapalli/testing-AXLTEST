@@ -1,5 +1,5 @@
 name: concatenate_strings
-pack: gangadhar
+pack: testing
 description: Concatenate two strings
 enabled: true
 runner_type: python-script
